@@ -6,8 +6,8 @@ export const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="/*" element={<AnimalesRoutes />} />
+        <Route path="/petsyHuellitas/" element={<Index />} />
+        <Route path="/petsyHuellitas/*" element={<AnimalesRoutes />} />
       </Routes>
     </BrowserRouter>
   )
